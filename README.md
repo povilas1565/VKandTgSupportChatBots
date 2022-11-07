@@ -1,4 +1,4 @@
-# customer-support-chatbot
+# VkandTgSupportChatBots
 
 Реализация чат-ботов поддержки клиентов с использованием сервиса Dialogflow на Google Cloud Platform.
 
