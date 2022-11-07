@@ -9,13 +9,13 @@ Dialogflow — это сервис, позволяющий создавать ч
 
 "Агент" — это что-то вроде "бота" в Telegram, только в DialogFlow.  
 
-Для начала нужно создать аккаунт в Google Cloud Platform: [https://console.cloud.google.com/].  
+Для начала нужно создать аккаунт в Google Cloud Platform: https://console.cloud.google.com/.  
 
 После создания аккаунта в Google Cloud Platform создаем проект.
 
 После создания проекта в создаем проект в сервисе DialogFlow: https://cloud.google.com/dialogflow/docs/quick/setup.
 
-Далее нужно создать агента через консоль DialogFlow: [https://cloud.google.com/dialogflow/docs/quick/build-agent]. 
+Далее нужно создать агента через консоль DialogFlow: https://cloud.google.com/dialogflow/docs/quick/build-agent. 
 При создании агента выбираем язык, на котором будем общаться с пользователями. Так же при создании агента понадобится идентификатор проекта Google Cloud Platform.  
 
 
@@ -25,10 +25,7 @@ Dialogflow — это сервис, позволяющий создавать ч
 
 Чтобы бот хорошо натренировался, фразы должны быть разными. 
 
-Так же можно "обучить" бота с помощью скрипта ```create_dialogflow_intent.py```. Для этого нужно указать путь до файла с тренировочными фразами и ответами. Пример запуска:
-```bash
-$ python create_dialogflow_intent.py intents/questions.json  
-```
+Так же можно "обучить" бота с помощью скрипта ```create_dialogflow_intent.py```. Для этого нужно указать путь до файла с тренировочными фразами и ответами. 
 
 ## Запуск бота на сервере
 
