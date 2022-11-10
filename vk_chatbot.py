@@ -29,7 +29,7 @@ def run_chatbot(token, project_id):
     api_vk = vk_session.get_api()
     longpoll = VkLongPoll(vk_session)
 
-    logger.info(f'Бот "{__file__}" запущен.')
+    logger.info(f'Бот "{__file__}" запускается')
 
     for event in longpoll.listen():
         if event.type == VkEventType.MESSAGE_NEW and event.to_me:
